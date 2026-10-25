@@ -1,0 +1,46 @@
+{
+  "method": "B_hopB_k30s202_n30_energy_ind",
+  "seed": 202,
+  "timestamp_utc": "20261024T221615Z",
+  "rotated_integrals": true,
+  "dims": [
+    300,
+    300
+  ],
+  "energy": -108.938468,
+  "ecore": -82.85149336550835,
+  "python": "3.13.17",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pyscf": "2.14.0",
+    "ffsim": "0.0.84",
+    "qiskit": "2.6.1",
+    "qiskit-ibm-runtime": "0.51.0",
+    "qiskit-addon-sqd": "0.14.0",
+    "matplotlib": "3.11.2",
+    "qfest-grader": "0.3.0"
+  },
+  "details": {
+    "track": "B",
+    "parent": "cand_Em108p938468_20261024T211015Z_B_hopB_k30s201_n30_energy_ind.npz",
+    "canonical_parent": "cand_Em108p914953_20261023T220349Z_A_quick_it6.npz",
+    "script": "scripts/basin_hop_B.py",
+    "args": {
+      "start": "results/cand_Em108p938468_20261024T211015Z_B_hopB_k30s201_n30_energy_ind.npz",
+      "kick": 30,
+      "kick_seed": 202,
+      "n_add": 30,
+      "prune": "energy",
+      "symmetric": false,
+      "hours": 1.2
+    },
+    "ritz_energy": -108.9384683551344,
+    "grader_energy": -108.938468,
+    "grader_matches_ritz": true,
+    "verified": true,
+    "submittable": true,
+    "converged": true,
+    "symmetric": false
+  }
+}

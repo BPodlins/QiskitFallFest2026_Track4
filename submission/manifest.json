@@ -1,0 +1,34 @@
+{
+  "source": "cand_Em108p938468_20261024T221615Z_B_hopB_k30s202_n30_energy_ind.npz",
+  "energy": -108.938468,
+  "ecore": "-82.85149336550835",
+  "dims": [
+    300,
+    300
+  ],
+  "convention": "hcore = U.T @ canonical_hcore @ U; eri[p,q,r,s] = sum U[a,p]U[b,q]U[c,r]U[d,s] canonical_eri[a,b,c,d]; same U for both spins; core orbitals and ecore unchanged",
+  "sha256": {
+    "rotation.npy": "facb35cd9cb119e1e2bf24b9da6d5909a0b0a8fafe354f32812601f6b9c55a58",
+    "hcore.npy": "42c5669f6f1eacddd72d5e80f99357b0478e75da7403ba1809e1b83296860ae6",
+    "eri.npy": "3f29dd1955aa627049a4a6259cdfadd61f5b3401e9e6552ca5286dec69e3d498",
+    "ci_strs_a.npy": "8a13c7fe68871f5da988f8d6ee4b0d31d8a3ed4f79864814eeb301ea21219e06",
+    "ci_strs_b.npy": "8a13c7fe68871f5da988f8d6ee4b0d31d8a3ed4f79864814eeb301ea21219e06",
+    "canonical_hcore.npy": "d9ca37433d1eac149135698c04500f662b37d923d817c77246c72135b1149072",
+    "canonical_eri.npy": "0071f51c272c12bbaa660c257cc54c8ff4abe8340972d11a8c27f89988a67519"
+  },
+  "provenance": {
+    "run_id": null,
+    "parent": "cand_Em108p938468_20261024T211015Z_B_hopB_k30s201_n30_energy_ind.npz",
+    "canonical_parent": "cand_Em108p914953_20261023T220349Z_A_quick_it6.npz",
+    "script": "scripts/basin_hop_B.py",
+    "args": {
+      "start": "results/cand_Em108p938468_20261024T211015Z_B_hopB_k30s201_n30_energy_ind.npz",
+      "kick": 30,
+      "kick_seed": 202,
+      "n_add": 30,
+      "prune": "energy",
+      "symmetric": false,
+      "hours": 1.2
+    }
+  }
+}

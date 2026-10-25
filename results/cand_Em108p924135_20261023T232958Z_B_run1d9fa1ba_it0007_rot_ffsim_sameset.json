@@ -1,0 +1,53 @@
+{
+  "method": "B_run1d9fa1ba_it0007_rot_ffsim_sameset",
+  "seed": 2026,
+  "timestamp_utc": "20261023T232958Z",
+  "rotated_integrals": true,
+  "dims": [
+    300,
+    300
+  ],
+  "energy": -108.92413490547912,
+  "ecore": -82.85149336550835,
+  "python": "3.13.17",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pyscf": "2.14.0",
+    "ffsim": "0.0.84",
+    "qiskit": "2.6.1",
+    "qiskit-ibm-runtime": "0.51.0",
+    "qiskit-addon-sqd": "0.14.0",
+    "matplotlib": "3.11.2",
+    "qfest-grader": "0.3.0"
+  },
+  "details": {
+    "track": "B",
+    "run_id": "1d9fa1ba",
+    "parent": "cand_Em108p922452_20261023T231641Z_B_run1d9fa1ba_it0005_select_natural.npz",
+    "canonical_parent": "cand_Em108p914953_20261023T220349Z_A_quick_it6.npz",
+    "iteration": 7,
+    "kind": "0007_rot_ffsim_sameset",
+    "ritz_energy": -108.92413490548198,
+    "grader_energy": -108.92413490547912,
+    "grader_matches_ritz": true,
+    "submittable": true,
+    "verified": true,
+    "converged": true,
+    "dims": [
+      300,
+      300
+    ],
+    "symmetric": true,
+    "seed": 2026,
+    "flags": {
+      "rotated": true,
+      "symmetric": true,
+      "submittable": true,
+      "grader_matches_ritz": true
+    },
+    "timings": {
+      "verify_s": 415.2078034649603
+    }
+  }
+}

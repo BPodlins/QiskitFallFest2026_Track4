@@ -1,0 +1,40 @@
+{
+  "method": "A_a_seed_start_n30_energy_k15s15",
+  "seed": 2026,
+  "timestamp_utc": "20261024T123500Z",
+  "rotated_integrals": false,
+  "dims": [
+    300,
+    300
+  ],
+  "energy": -108.915506,
+  "ecore": -82.85149336550835,
+  "python": "3.13.17",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pyscf": "2.14.0",
+    "ffsim": "0.0.84",
+    "qiskit": "2.6.1",
+    "qiskit-ibm-runtime": "0.51.0",
+    "qiskit-addon-sqd": "0.14.0",
+    "matplotlib": "3.11.2",
+    "qfest-grader": "0.3.0"
+  },
+  "details": {
+    "track": "A",
+    "parent": "results/cand_Em108p862724_20261023T202815Z_A_run40afdc9f_it0001_seed_hfsd300.npz",
+    "seed_set": "hfsd",
+    "ritz": -108.91550555590297,
+    "grader": {
+      "dims": [
+        300,
+        300
+      ],
+      "energy": -108.915506,
+      "matches": true
+    },
+    "verified": true,
+    "submittable": true
+  }
+}

@@ -1,0 +1,14 @@
+# Pinned from the first successful n2-sqd build (python:3.13-slim,
+# `pip freeze`; image built 2026-10-23). Reproducible via `pip install -r`.
+# qfest-grader 0.3.0 installed from PyPI (no vendoring needed).
+ffsim==0.0.84
+jupyterlab==4.6.4
+matplotlib==3.11.2
+numpy==2.5.4
+pyscf==2.14.0
+qfest-grader==0.3.0
+qiskit==2.6.1
+qiskit-addon-sqd==0.14.0
+qiskit-ibm-runtime==0.51.0
+requests==2.34.2
+scipy==1.18.1

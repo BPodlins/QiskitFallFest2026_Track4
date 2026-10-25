@@ -1,0 +1,51 @@
+{
+  "method": "A_run40afdc9f_it0001_seed_hfsd300",
+  "seed": 2026,
+  "timestamp_utc": "20261023T202815Z",
+  "rotated_integrals": false,
+  "dims": [
+    300,
+    300
+  ],
+  "energy": -108.86272410350473,
+  "ecore": -82.85149336550835,
+  "python": "3.13.17",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pyscf": "2.14.0",
+    "ffsim": "0.0.84",
+    "qiskit": "2.6.1",
+    "qiskit-ibm-runtime": "0.51.0",
+    "qiskit-addon-sqd": "0.14.0",
+    "matplotlib": "3.11.2",
+    "qfest-grader": "0.3.0"
+  },
+  "details": {
+    "track": "A",
+    "run_id": "40afdc9f",
+    "parent": null,
+    "iteration": 1,
+    "kind": "0001_seed_hfsd300",
+    "ritz_energy": -108.8627241035046,
+    "grader_energy": -108.86272410350473,
+    "grader_matches_ritz": true,
+    "submittable": true,
+    "converged": true,
+    "dims": [
+      300,
+      300
+    ],
+    "symmetric": true,
+    "seed": 2026,
+    "flags": {
+      "rotated": false,
+      "symmetric": true,
+      "submittable": true,
+      "grader_matches_ritz": true
+    },
+    "timings": {
+      "verify_s": 603.5096803419292
+    }
+  }
+}
